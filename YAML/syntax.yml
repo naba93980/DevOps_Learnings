@@ -3,6 +3,8 @@ datacenter:
   location: canada  
   cab: 15  
 
+# key-value mapping
+host: phl-42 
 
 # list indentation
 animals:  
