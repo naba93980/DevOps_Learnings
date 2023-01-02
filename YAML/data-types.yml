@@ -1,0 +1,35 @@
+# 1. Scalar - simple value for a key
+- location: canada  
+- cab: 15  
+
+# 2. Lists 
+
+# block-style
+- items: [6, 7, 8, 9, 10]  
+
+# flow-style
+- animals:  
+  - dog  
+  - cat  
+  - mouse  
+
+- items2:  
+  - values:  
+    - value
+    - value2
+    - value3
+  - other values:  
+      key: value   
+
+# 3. Dictionaries
+- student1: "john"  
+- hobbies:   
+  - music  
+  - reading  
+  - dancing
+- student2:   
+  fatherName: "William"    
+  motherName: "Marry"  
+  subjectDetails:   
+    subject1: 70  
+    subject2: 100   
