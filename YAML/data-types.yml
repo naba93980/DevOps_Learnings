@@ -1,4 +1,4 @@
-# 1. Scalar - simple value for a key
+# 1. Scalar (int, float, string, boolean) - simple value for a key
 - location: canada  
 - cab: 15  
 
