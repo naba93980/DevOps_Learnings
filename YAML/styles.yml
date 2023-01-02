@@ -1,0 +1,16 @@
+# Block-style
+- host: phl-42            # key-value mapping
+- datacenter:             # key-value mapping indentation
+  location: canada  
+  cab: 15  
+- animals:                  # list indentation
+  - dog  
+  - cat  
+  - mouse  
+
+# Flow-style
+- host: phl-42  
+- datacenter: {location: canada , cab: 15}  
+- animals: [dog , cat , mouse]  
+
+# Flow style is an extension of JSON. It is used to allow YAML and JSON to work together.
