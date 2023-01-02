@@ -24,6 +24,26 @@ message: >
  all be treated 
  as a single line
 
+---
+
+number: 5473
+marks: 98.76
+booleanValue: No # n, N, false, False, FALSE
+# same for true —> yes, y, Y
+
+---
+
+# specify the type
+
+#int
+zero: !!int 0
+binaryNum: !!int 011001
+
+# float
+marks: !!float 56.36
+infinite: !!float .inf
+not a num: .nan
+
 ...
 
 # --- is used to separate documents in a yaml file
