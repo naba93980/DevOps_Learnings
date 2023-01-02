@@ -1,0 +1,14 @@
+# key-value mapping identation
+datacenter:   
+  location: canada  
+  cab: 15  
+
+
+# list indentation
+animals:  
+  - dog  
+  - cat  
+  - mouse  
+  - 5
+  - true
+  - 3.14
