@@ -1,0 +1,30 @@
+apple: "I am a red fruit"
+1: "this is nabajyoti roll no"
+
+---
+
+list of fruits:
+- Apple
+- Orange
+- Strawberry
+- Mango
+
+---
+
+# string multi-line
+bio: |
+ hey my name is nabajyoti
+ i am 5'10" tall
+ 
+---
+
+# string single-line in multiple lines
+message: >
+ this will 
+ all be treated 
+ as a single line
+
+...
+
+# --- is used to separate documents in a yaml file
+# ... end of all the documents
