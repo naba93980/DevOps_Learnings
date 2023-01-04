@@ -41,8 +41,19 @@ binaryNum: !!int 011001
 
 # float
 marks: !!float 56.36
+
+# infinity
 infinite: !!float .inf
+
+# nan
 not a num: .nan
+
+# null
+surname: !!null Null
+
+# dates and time
+date: !!timestamp 2002-12-14
+
 
 ...
 
