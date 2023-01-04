@@ -1,0 +1,13 @@
+# reusing some properties using anchors
+likings: &likes
+ fav fruit: mango
+ dislikes: grapes
+
+person1:
+ name: Nabajyoti Modak
+ <<: *likes
+
+person2:
+ name: Papai Modak
+ <<: *likes
+ dislikes: berries   # overwrite
