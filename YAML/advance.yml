@@ -35,16 +35,25 @@ role:
   job: student
 
 # pairs: keys may have duplicate values
-# pairs
 pair example: !!pairs
  - job: student
  - job: teacher
 
- # sets
+ # sets: only keys with no duplicates
 name3: !!set
  ? Kunal
  ? Apoorv
  ? Rahul
+
+
+# DICTIONARY
+people:
+ - Nabajyoti: 
+    age: 78 
+    height: 678
+ - Rahul:
+    age: 50
+
 
 
 
