@@ -1,0 +1,50 @@
+termial emulator is a program allow us to use termial in a graphical way
+    windows - putty
+shell in linux in CLI that takes all my input and interprets and tells the OS what to do - eg. cshell zsh etc.
+
+part of the termial where i write the input is command promt
+
+
+commands: - commands are just executable files that run when the command is called.
+
+1. whereis exefilename - for finding location of the executable file.
+2. ls - list all file folder in the director
+3. mkdir - create a new folder
+4. cd folder/subfolder/destinationfolder/  - change directory for entering in subsubfolder
+5. cd .. - to move back one folder
+6. cd foldername/- moves to front directory
+    cd - moves to home directory
+    cd ../folder/ - enter the folder present in the last back folder 
+    cd //mnt/d/folder/subfolder/ -  inside the (/)base folder then mount folder then folder then subfolder 
+7. open - opens the file or folder whose name is mentioned using path environment variable
+
+WHEN WE ENETER A COMMAND TO CALL A EXECUTABLE FILE, LIKE git, LINUX CHECKS THE PATH ENVIRONMENT VARIABLES 
+TO FIND THE LOCATION OF THAT EXECUTABLE AND THEN EXECUTES THE COMMANDS BY RUNNING THAT EXECUTABLE FILE
+
+8. ls -a - enlist the whole list of the current directory including the hidden files, . means present directory, .. means past directory
+    ls subfolder - show all files and folders present in the subfolder
+    ls subfolder -R - show all files and subfolders and files in the subfolders
+9. apt list --installed - list all installed packages on Ubuntu
+10. cat file1 - diplay file
+    cat file1 file2 - display contents of both file1 and file2
+    cat > filename - creates file and opens it to let us write something
+    cat file1 file2 > file3 - copies content of both file1 and file2 to file3.
+11. pwd - present working directory
+12. ls -l - shows files and folder with permissions
+    ls -R - shows files and folder present folder and sub folders as well 
+13. echo " " - writes something in termial/output
+    echo  " " > file - prints something in file overriding its contents
+14. man command - gives description of the command
+15.  | - tunnel - output of first command going to be the input of the secon command 
+    > - redirection - redirect the output to the file.
+16. tr -  translate or delete characters
+17. cat file | tr set1 set2 - tr accepts two sets of characters, usually with the same length, and replaces the characters of the first sets with the corresponding characters from the second set. A SET is basically a string of characters.
+    eg. cat my2.txt | tr 'a-z' 'A-Z' > upper.txt - output of cat becomes input of tr and output of tr gets redirected to upper.txt file
+18. mkdir folder1 - creates a folder1 
+    mkdir folder1/subfolder1 - creates a subfolder1 inside folder1
+    mkdir -p folder1/middlesub/subfolder1 - creates a middlefolder inside folder  then creates a subfolder inside middlefolder
+19. touch filename - creates a file in the pwd
+20. cp file1 file1copy - creats a copy file1copy of file1
+21. mv source target - moving source file or folder to target folder/file( it removes the source file and puts its content/creates target file)
+22. rm file - permanently remove the files
+23. cp -R source target - copies source folder including subfolders to target folder.
