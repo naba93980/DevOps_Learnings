@@ -47,4 +47,18 @@ TO FIND THE LOCATION OF THAT EXECUTABLE AND THEN EXECUTES THE COMMANDS BY RUNNIN
 20. cp file1 file1copy - creats a copy file1copy of file1
 21. mv source target - moving source file or folder to target folder/file( it removes the source file and puts its content/creates target file)
 22. rm file - permanently remove the files
-23. cp -R source target - copies source folder including subfolders to target folder.
+23. rm -rf file - permanently remove a file
+24. rm -R folder - permanently remove a folder
+25. cp -R source target - copies source folder including subfolders to target folder.
+26. whoami - displays current users
+27. whereis - location of the script executable binaries
+28. id -u  - if 0 indicates root user, if !==0 means non-root user
+29. sudo su -   - switch to root user
+30. sudo su - username - switch to user 'username'
+31. df(disk free) -g - show drive capacity and all info in gigabyte
+32. du(disk usage) - show size of entire directory
+      du -a - show size of entire directory recursively
+      du -a -h - show size of entire directory recursively in MB
+      du -a -l - show size of entire directory recursively in KB
+
+
