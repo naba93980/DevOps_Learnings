@@ -1,0 +1,7 @@
+/etc/bash.bashrc - When bash initializes a non-login interactive bash shell on a Debian/Ubuntu-like system, the shell first reads /etc/bash.bashrc and then reads ~/.bashrc.
+/home/nabajyotimodak/.bashrc - defines the shell environment for a specific user. (preferable to add PATH here, as both logged-in and non-logged-in users can use that path)
+
+/etc/profile - is a system-wide login profile script. It also runs once when you login, but runs for all users before their user-specific .profile
+/home/nabajyotimodak/.profile - is a per-user login profile. It runs once when you login and does things that a user needs when they interact with the system, such as the message of the day or a list of new messages.
+
+https://stackoverflow.com/questions/18791486/differences-uses-and-similarities-between-bashrc-bash-profile-and-etc-profil#:~:text=%2Fetc%2Fprofile%20is%20global%20configuration,for%20interactive%20non%2Dlogin%20shells
