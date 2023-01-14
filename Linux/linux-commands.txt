@@ -60,5 +60,17 @@ TO FIND THE LOCATION OF THAT EXECUTABLE AND THEN EXECUTES THE COMMANDS BY RUNNIN
       du -a - show size of entire directory recursively
       du -a -h - show size of entire directory recursively in MB
       du -a -l - show size of entire directory recursively in KB
+33. head/tail - shows first/last 10 lines
+	head -n filename -> n represents number of lines to be displayed.
+	tail -n filename -> n represents number of lines to be displayed.
+34. grep MemTotal /proc/meminfo - check total RAM.
+35. diff file1 file2 - print the lines which doesnot match in both the files.
+35. locate filename/pattern - locate file path.
+36. find . - find everything in present directory.
+37. find .. - find everything in past directory.
+38. find directoryname - find everything in 'directoryname' directory.
+39. find . -type d - find all directories in . directory.
+40. find . -type f - find all diredctories in . directory.
+41. find . -type f -name "*.txt" - show all files having .txt in name
 
 
