@@ -1,0 +1,12 @@
+vim editor - press Esc 
+:q to quit.
+:q! to quit without saving data/file.
+:x save and quit.
+:qa to quit all open files.
+:wq write and then quit.
+:w to save.
+
+List of modes:
+Command mode - issues commands to Vim (use Esc to get to Command mode)
+Execute mode - executes commands in Vim (use colon : to get to Execute mode)
+Insert mode - inserts text in a file (use i to get to Insert mode)
