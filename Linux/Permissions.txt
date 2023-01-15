@@ -1,0 +1,29 @@
+The Permission Types that are used are:
+r – Read = 4
+w – Write = 2
+x – Execute = 1
+
+The Permission Groups used are:
+u – Owner
+g – Group
+o – Others
+a – All users
+
+first set of permissions is for owner permission.
+second set of permissions is for group permission.
+third set of permissions is for all users permission.
+
+Assignment Operators are + (plus) and – (minus) are used to tell 
+the system whether to add or remove the specific permissions.
+
+Advanced Permissions:
+The first character gives you a hint of the type of object it is.
+_ – no special permissions
+d – directory
+l – The file or directory is a symbolic link
+s – This indicated the setuid/setgid permissions. This is not set displayed in the special permission part of the permissions display, but is represented as a s in the read portion of the owner or group permissions.
+t – This indicates the sticky bit permissions. This is not set displayed in the special permission part of the permissions display, but is represented as a t in the executable portion of the all users permissions
+
+https://superuser.com/questions/477858/what-does-the-number-after-unix-linux-file-permissions-like-rw-rw-r-1-mea
+https://unix.stackexchange.com/questions/59132/what-does-the-d-mean-in-ls-al-results-and-what-is-that-slot-called
+https://askubuntu.com/questions/1339297/what-does-the-root-root-part-in-the-ls-command-output-mean
