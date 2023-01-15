@@ -72,5 +72,31 @@ TO FIND THE LOCATION OF THAT EXECUTABLE AND THEN EXECUTES THE COMMANDS BY RUNNIN
 39. find . -type d - find all directories in . directory.
 40. find . -type f - find all diredctories in . directory.
 41. find . -type f -name "*.txt" - show all files having .txt in name
+42. find . -perm u=rwx,g=rwx,o=rwx.
+43. find . -type f -name "*.txt"
+44. find . -type f -name "*.txt" -exec rm -rf {} +   -> find files of type .txt and execute rm -rf on each .txt
+
+45. chmod - modify permissions
+	chmod u+x fine1.txt -> add execute permission to owner.
+	chmod u=x,g=x,o=wx fine1.txt -> user,group has execute, others has write, execute permissions.
+46. chown - command is used to change the file Owner or group.
+	chown [OPTION] [OWNER][:[GROUP]] FILE
+	chown [OPTION] –reference=RFILE FILE
+	-c option Reports when a file change is made
+	chown --from=nabajyotimodak root fine1.txt -> change owner permission from nabajyotimodak to root.
+	chown --from=:nabajyotimodak root fine1.txt -> change group permission from nabajyotimodak to root.
+
+47. grep -> find something on a file from an expression.
+	grep -w "abc def" filename. ->w -> entire word
+	grep -n "abc" filename -> line no where abc is found.
+	grep -r "abc" folder -> search recursively in folder.
+	grep -i "abc" filename -> i means case insensitive
+	     -l -> list all files 
+	     -c -> count all files
+48. history -> history of all commands 
+	history | grep "ls"
+
+
+
 
 
