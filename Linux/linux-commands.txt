@@ -95,6 +95,48 @@ TO FIND THE LOCATION OF THAT EXECUTABLE AND THEN EXECUTES THE COMMANDS BY RUNNIN
 	     -c -> count all files
 48. history -> history of all commands 
 	history | grep "ls"
+49. alias -> alias present in the system.
+
+shortcuts : 
+tab for autocompletion
+ctrl+A for moving to the first of the command.
+ctrl+E for moving to the last of the command.
+ctrl+k for removing everything after the cursor.
+ctrl+u for removing everything entire command section present before the cursor.
+
+50. !historyNumber -> run command at 'historyNumber' number in history file
+51. sort filename -> sorts contents of filename file.
+	-f - case insensitive
+	-n - in numerical order
+	-r - reverse order
+52. jobs Command : command that is used to list the jobs that you are running in the background and in the foreground.
+53. wget -o filename link : download any file from internet.
+54. zip zipName filename1 filename2 ... -> creates a zip having name as zipName.
+    unzip zipname -> unzip
+55. hostname - displays names of current host system
+	hostname -i - didplays ip of current host system
+56. adduser userName -> add another user in the system, find it in home/userName/
+57. passwd userName -> set password for the userName
+58. userdel -f username -> force delete 'username' user.
+59. kill -9 <pid> - kill a process with id 'pid'.
+60. OS info - 
+	uname - kernel name
+	uname -o -> type of kernel
+	uname -r -> kernel version
+	uname -m -> architecture
+	etc/os-release contains all os related info
+69. lscpu - all cpu related info.
+70. free - memory info.
+71. vmstat - virtual memory info
+72. usermod -a -G groupname user -> execute this command as root to add any user to a particular group like sudo,adm etc
+73. id - print userId, groupId
+	-u -> user id
+	-g -> group id
+74. getent - collects data from the defined administrative database.
+	getent group -> get info about groups
+	getent passwd <user> -> get password about user 'user'
+
+
 
 
 
