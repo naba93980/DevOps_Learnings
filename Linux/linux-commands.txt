@@ -133,8 +133,27 @@ ctrl+u for removing everything entire command section present before the cursor.
 	-u -> user id
 	-g -> group id
 74. getent - collects data from the defined administrative database.
+	getent [database] [databse_name]
 	getent group -> get info about groups
 	getent passwd <user> -> get password about user 'user'
+	getent group sudo -> get all users in sudo group
+75. lsof - list open files
+    lsof -u username -> files open for username user
+76. nslookup site/ip -> shows site with ip
+77. netstat -> monitors port for active connections
+78. ifconfig -> network related info
+79. sed -> stream editor.
+80. cut -> show selected parts(bytes/fields/characters of a file).
+	cut -c 1-4 file4.txt -> show first 4 characters in file4.txt file.
+81. htop -> all resource being used by process related info.
+82. ps -> view info related to process.
+83. ps aux -> similar to htop.
+
+84. & operator -> run process in background.
+    other operators - https://www.makeuseof.com/linux-command-line-chaining-operators/#:~:text=The%20Ampersand%20Operator%20(%26)&text=Here's%20where%20the%20ampersand%20operator,continue%20using%20the%20shell%20untethered.
+
+
+
 
 
 
