@@ -1,0 +1,5 @@
+cd /mnt/z/NABAJYOTI/DevOps/BashScripting
+
+cat etc/shells  --> list all shells
+touch hello.sh
+#!/bin/bash  --> shebang explicitly specify to os(ubuntu here) the type of shell used by the script

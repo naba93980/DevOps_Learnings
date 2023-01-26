@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo "Enter name: "
-read  name1 name2            # takes anything upto first space as input for name1           #backlash acts as an escape character
+read  name1 name2            # takes anything upto first space as input for name1           #backlash acts as an escape character, mane u can give input in next line after putting \ in current line.
 echo "name 1 - $name1, name 2 - $name2 "
 
 
